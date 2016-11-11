@@ -1,0 +1,44 @@
+----------      VDS 7.2 Log Analyzer    ----------
+
+
+[*] Checking File.... Done
+
+[*] Parsing File.... Done
+
+[*] Guessing Current Log Level.... Done
+        [*] Log Level: INFO
+
+[*] Checking Last VDS Start & Stop Time.... Done
+        [*] Last VDS Start Time: 2016-11-11 10:15:48
+        [*] Last VDS Stop Time: 2016-11-11 10:15:35
+
+[*] Checking for Global & Local Interception Scripts.... Done
+        [*] Global Interception:   Not Found
+        [*] Local Interception:    Found
+
+[*] Gathering List Of Clients.... Done
+        [*] Client: 127.0.0.1
+        [*] Client: 10.11.14.115
+        [*] Client: 10.11.14.137
+        [*] Client: 10.11.13.7
+
+[*] Gathering List Of Largest etime's.... Done
+        Connection ID   ETime   Request Type
+        ------------------------------------
+        975             828     SearchResult
+        234             1005    SearchResult
+        263             1023    SearchResult
+        61874           1192    SearchResult
+        61862           1736    SearchResult
+
+[*] Checking For Errors.... Done
+        Result Code     Count   Percentage      Error Reason
+        ----------------------------------------------------------
+        0               13602   99.88%          successful
+        19              2       0.01%           constraint violation
+        32              9       0.07%           no such object
+        65              2       0.01%           object class violation
+        68              3       0.02%           already exists
+
+
+[*] VDS 7.2 Log Analyzer Complete!
