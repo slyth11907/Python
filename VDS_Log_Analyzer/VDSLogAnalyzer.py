@@ -2,8 +2,6 @@
 import sys
 import os
 import time
-from collections import defaultdict
-import numpy
 
 #Author: Brandon Dennis
 #Date: 11/8/16
@@ -137,7 +135,7 @@ def checkVDSLastStart(contents):
 def checkGlobalIntercept(contents):
 	#We are checking to see if there is a possible global interception script running
 	isGlobal = False
-	isLocal = True
+	isLocal = False
 	for line in contents:
 		if "globalIntercept" in line:
 			isGlobal = True
