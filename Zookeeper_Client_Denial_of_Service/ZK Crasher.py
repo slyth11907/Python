@@ -12,7 +12,6 @@
 #	The average amount of threads uses was 10000 for testing. This should work on all 3.x+ versions of Zookeeper.
 #	This should effect Linux x86 & x64 as well
 
-#Exploit-db: https://www.exploit-db.com/exploits/41277/
 
 
 
